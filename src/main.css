@@ -5,14 +5,17 @@
 }
 */
 
-body {
+body *{
     font-family: 'Nanum Myeongjo', serif;
+    margin: 0;
+    padding: 0;
 }
 
 .main{
-    width: 600px;
+    width: 650px;
     margin: 0 auto;
     margin-top: 100px;
+    overflow: hidden;
 }
 
 .profile-image{
@@ -30,14 +33,30 @@ body {
     width: auto;
 }
 
-.main-left{
+.header{
+    overflow: hidden;
+}
+
+.header-left{
     float: left;
 }
 
-.main-right{
+.header-right{
     float: right;
 }
 
-.main-right *{
-    margin: 10px;
+.header-right *{
+    margin-bottom: 10px;
+}
+
+.main-bottom{
+    clear:right;
+    margin-top: 30px;
+}
+
+a {
+    color: black;
+}
+a span{
+    margin-right: 10px;
 }
