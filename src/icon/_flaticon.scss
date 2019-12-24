@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 13/09/2019 07:52
+    Creation date: 24/12/2019 13:49
     */
 
     @font-face {
@@ -37,12 +37,14 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-facebook-logo:before { content: "\f100"; }
-.flaticon-blogging:before { content: "\f101"; }
-.flaticon-linkedin-sign:before { content: "\f102"; }
-.flaticon-github-sign:before { content: "\f103"; }
+    .flaticon-mail:before { content: "\f100"; }
+.flaticon-facebook-app-logo:before { content: "\f101"; }
+.flaticon-blogging:before { content: "\f102"; }
+.flaticon-linkedin-sign:before { content: "\f103"; }
+.flaticon-github-sign:before { content: "\f104"; }
     
-    $font-Flaticon-facebook-logo: "\f100";
-    $font-Flaticon-blogging: "\f101";
-    $font-Flaticon-linkedin-sign: "\f102";
-    $font-Flaticon-github-sign: "\f103";
+    $font-Flaticon-mail: "\f100";
+    $font-Flaticon-facebook-app-logo: "\f101";
+    $font-Flaticon-blogging: "\f102";
+    $font-Flaticon-linkedin-sign: "\f103";
+    $font-Flaticon-github-sign: "\f104";
