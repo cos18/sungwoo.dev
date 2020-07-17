@@ -1,11 +1,9 @@
 @font-face {
     font-family: 'RIDIBatang';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff')
-    format('woff');
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
 
 /*
 @font-face {
@@ -25,20 +23,20 @@
 }
 */
 
-body *{
+body * {
     font-family: 'RIDIBatang', serif;
     margin: 0;
     padding: 0;
 }
 
-.main{
+.main {
     width: 700px;
     margin: 0 auto;
     margin-top: 100px;
     overflow: hidden;
 }
 
-.profile-image{
+.profile-image {
     width: 230px;
     height: 230px;
     position: relative;
@@ -53,53 +51,54 @@ body *{
     width: auto;
 }
 
-.header{
+.header {
     overflow: hidden;
 }
 
-.header-left{
+.header-left {
     float: left;
 }
 
-.header-right{
-    float: right;
+.header-right {
+    margin-left: 300px;
 }
 
-div *{
+div * {
     margin-bottom: 15px;
 }
 
-.header{
+.header {
     margin-bottom: 0px;
 }
 
-li{
+li {
     list-style-type: circle;
     margin: 5px 0px 5px 0px;
 }
 
-.main-description{
-    clear:right;
+.main-description {
+    clear: right;
     margin-top: 30px;
 }
 
-.main-description div{
+.main-description div {
     margin: 50px 0px 50px 0px;
 }
 
-.main-description div div{
+.main-description div div {
     margin: 30px 0px 30px 0px;
 }
 
-.main-bottom{
-    clear:right;
+.main-bottom {
+    clear: right;
     margin-top: 30px;
 }
 
 a {
     color: black;
 }
-a span{
+
+a span {
     margin-right: 10px;
 }
 
@@ -108,17 +107,14 @@ img {
     height: 100%;
 }
 
-table{
+table {
     width: 100%;
 }
 
-td.name{
+td.name {
     width: 15%;
 }
-td.level{
-    width: 35%;
-}
 
-img{
-    width: 70%;
+td.level {
+    width: 35%;
 }
