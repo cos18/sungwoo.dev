@@ -1,32 +1,7 @@
-@font-face {
-    font-family: 'RIDIBatang';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
 
-/*
-@font-face {
-    font-family: 'NIXGONM-Vb';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONM-Vb.woff')
-    format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@import url('//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
-
-@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Jua&display=swap');
-
-.kopubbatang * {
-    font-family: 'KoPub Batang', serif;
-}
-*/
-
-body * {
-    font-family: 'RIDIBatang', serif;
-    margin: 0;
-    padding: 0;
+.nanumsquare {
+    font-family: 'NanumSquare', sans-serif !important;
 }
 
 .main {
@@ -37,8 +12,8 @@ body * {
 }
 
 .profile-image {
-    width: 230px;
-    height: 230px;
+    width: 300px;
+    height: 300px;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
@@ -60,7 +35,7 @@ body * {
 }
 
 .header-right {
-    margin-left: 300px;
+    margin-left: 370px;
 }
 
 div * {
@@ -112,9 +87,9 @@ table {
 }
 
 td.name {
-    width: 15%;
+    width: 20%;
 }
 
 td.level {
-    width: 35%;
+    width: 30%;
 }
