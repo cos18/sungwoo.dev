@@ -6,15 +6,15 @@
 }
 
 .main {
-    width: 700px;
+    width: min(700px, 90vw);
     margin: 0 auto;
     margin-top: 100px;
     overflow: hidden;
 }
 
 .profile-image {
-    width: 300px;
-    height: 300px;
+    width: min(300px, 40vw);
+    height: min(300px, 40vw);
     position: relative;
     overflow: hidden;
     border-radius: 50%;
@@ -34,7 +34,7 @@
 }
 
 .header-right {
-    margin-left: 370px;
+    margin-left: min(370px, 45vw);
 }
 
 div * {
