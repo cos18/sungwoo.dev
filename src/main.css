@@ -13,11 +13,10 @@
 }
 
 .profile-image {
-    width: min(300px, 40vw);
-    height: min(300px, 40vw);
+    width: min(330px, 40vw);
+    height: min(330px, 40vw);
     position: relative;
     overflow: hidden;
-    border-radius: 50%;
 }
 
 .profile-image img {
